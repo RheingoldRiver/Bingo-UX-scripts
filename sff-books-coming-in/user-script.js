@@ -12,11 +12,11 @@
     'use strict';
 
     // Check if the page matches the criteria
+    // Note - may want a slightly stricter check here (e.g.  username check, subreddit check?) but it's not particularly harmful if it overmatches so I'm not concerned
     const entries = document.querySelectorAll('.entry .top-matter .title a');
     let found = false;
 
     entries.forEach(entry => {
-        // Note - may want a slightly stricter check here (e.g.  username check, subreddit check?) but it's not particularly harmful if it overmatches so I'm not concerned
         if (entry.textContent.includes("SFF books coming in")) {
             found = true;
         }
