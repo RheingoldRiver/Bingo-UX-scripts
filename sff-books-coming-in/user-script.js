@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  Replace book titles in Reddit posts with Goodreads search links
-// @author       You
+// @author       RheingoldRiver (+ prompting chatGPT I'm too lazy to do this myself)
 // @match        *://*.reddit.com/*
 // @grant        none
 // ==/UserScript==
@@ -16,6 +16,7 @@
     let found = false;
 
     entries.forEach(entry => {
+        // Note - may want a slightly stricter check here (e.g.  username check, subreddit check?) but it's not particularly harmful if it overmatches so I'm not concerned
         if (entry.textContent.includes("SFF books coming in")) {
             found = true;
         }
