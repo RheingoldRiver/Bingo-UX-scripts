@@ -10,7 +10,7 @@ This repo contains a bunch of small user script utilities I (/u/RheingoldRiver) 
 4. Right-click the tampermonkey icon and click the + to add a script
 5. Paste the code you copied in step 2 (you may have to go back and re-copy if you used your clipboard in between)
 6. Save
-7. Open one of your "SFF books coming in..." posts (you will need to refresh if it's already open) (and make sure u are in old.reddit)
+7. Open one of the pages the script should apply on (you will need to refresh it if you were already there)
 8. it should now work!
 
 If you are using Chrome you may additionally need to enable developer mode for your Chrome extensions and then click "Update" after you do that. You can also see the [tampermonkey FAQ](https://www.tampermonkey.net/faq.php?locale=en) for additional installation instructions.
