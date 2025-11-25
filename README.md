@@ -10,7 +10,7 @@ This repo contains a bunch of small user script utilities I (/u/RheingoldRiver) 
     * [this one for upcoming SFF books posts](https://github.com/RheingoldRiver/Bingo-UX-scripts/blob/main/sff-books-coming-in/user-script.js)
 3. Copy ALL of the code in that file, including the comments (all the way from line 1 to the end). You will paste it in a later step.
 4. Tampermonkey should have an extension icon in your toolbar, if not then customize your toolbars and click and drag that into your toolbar so it's showing up
-5. Right-click the tampermonkey icon and click the + to add a script
+5. Left-click the tampermonkey icon and click the + to add a script
 6. Paste the code you copied in step 2 (you may have to go back and re-copy if you used your clipboard in between)
 7. Save
 8. Open one of the pages the script should apply on (you will need to refresh it if you were already there)
